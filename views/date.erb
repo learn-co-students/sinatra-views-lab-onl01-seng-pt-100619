@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+
+    <body>
+      <% @today = Time.now %>
+      <h1> Today's date </h1>
+
+    <p> The date is <%= @today.strftime("%A")%>, <%= @today.strftime("%B")%> <%=@today.strftime("%d") %>, <%= @today.strftime("%Y") %>  </p>
+
+    </body>
+</html>
